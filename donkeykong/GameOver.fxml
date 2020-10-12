@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<!--This is the simple game over page after you lose the game. A loop for the entire game was not added due to time constraints-->
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane minHeight="900.0" minWidth="1250.0" prefHeight="793.0" prefWidth="1218.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label alignment="CENTER" layoutX="317.0" layoutY="25.0" prefHeight="286.0" prefWidth="652.0" text="Game Over!" textFill="#800020">
+               <font>
+                  <Font name="Segoe Print" size="96.0" />
+               </font>
+               <effect>
+                  <DropShadow color="WHITE" />
+               </effect>
+            </Label>
+            <ImageView fitHeight="442.0" fitWidth="684.0" layoutX="293.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../res/donkeyKongGIF.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

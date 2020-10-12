@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<!--Creating the pane and the entire platform field using Scene builder and connecting all of the necessary objects to the controller class-->
+
+<Pane onKeyPressed="#keyPressed" onKeyReleased="#keyReleased" prefHeight="900.0" prefWidth="1250.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment.Controller">
+   <children>
+      <ImageView fx:id="jumpman" fitHeight="56.0" fitWidth="29.0" layoutX="96.0" layoutY="742.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/newCroppedMario.gif" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="floor1" arcHeight="5.0" arcWidth="5.0" fill="#800020" height="32.0" layoutX="83.0" layoutY="787.0" stroke="BLACK" strokeType="INSIDE" width="1050.0" />
+      <Rectangle fx:id="floor2" arcHeight="5.0" arcWidth="5.0" fill="#800020" height="25.0" layoutX="83.0" layoutY="625.0" stroke="BLACK" strokeType="INSIDE" width="1050.0" />
+      
+      <ImageView fx:id="donkeyKong" fitHeight="88.0" fitWidth="147.0" layoutX="110.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/donkeyKongGIF.gif" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="floor3" arcHeight="5.0" arcWidth="5.0" fill="#800020" height="25.0" layoutX="69.0" layoutY="479.0" stroke="BLACK" strokeType="INSIDE" width="1050.0" />
+      <ImageView fx:id="ladder2" fitHeight="179.0" fitWidth="17.0" layoutX="236.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/ladder.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="floor4" arcHeight="5.0" arcWidth="5.0" fill="#800020" height="25.0" layoutX="193.0" layoutY="373.0" stroke="BLACK" strokeType="INSIDE" width="1050.0" />
+      <ImageView fx:id="ladder1" fitHeight="233.0" fitWidth="21.0" layoutX="894.0" layoutY="625.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/ladder.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ladder4" fitHeight="142.0" fitWidth="12.0" layoutX="1052.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/ladder.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="floor5" arcHeight="5.0" arcWidth="5.0" fill="#800020" height="25.0" layoutX="104.0" layoutY="228.0" stroke="BLACK" strokeType="INSIDE" width="1050.0" />
+      <ImageView fx:id="ladder3" fitHeight="124.0" fitWidth="12.0" layoutX="772.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/ladder.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ladder5" fitHeight="233.0" fitWidth="21.0" layoutX="1133.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/ladder.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="floor6" arcHeight="5.0" arcWidth="5.0" fill="#800020" height="25.0" layoutX="104.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="645.0" />
+      <ImageView fx:id="ladder6" fitHeight="161.0" fitWidth="17.0" layoutX="281.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/ladder.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel1" fitHeight="41.0" fitWidth="59.0" layoutX="1069.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel2" fitHeight="41.0" fitWidth="59.0" layoutX="1044.0" layoutY="590.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel3" fitHeight="41.0" fitWidth="59.0" layoutX="69.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel4" fitHeight="41.0" fitWidth="59.0" layoutX="1179.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel5" fitHeight="41.0" fitWidth="59.0" layoutX="193.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel6" fitHeight="41.0" fitWidth="59.0" layoutX="1044.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barrel7" fitHeight="41.0" fitWidth="59.0" layoutX="104.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/cartoonBarrel.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="title" layoutX="769.0" layoutY="38.0" prefHeight="153.0" prefWidth="481.0" text="Donkey Kong Retro Edition" textOverrun="CLIP">
+         <font>
+            <Font name="Segoe Print Bold" size="34.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <ImageView fx:id="princess" fitHeight="73.0" fitWidth="107.0" layoutX="352.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../res/princess.gif" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
