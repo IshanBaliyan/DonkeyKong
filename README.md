@@ -1,6 +1,6 @@
 # DonkeyKong
 
-This is a classic retro version of the game Donkey Kong. 
+## This is a classic retro version of the game Donkey Kong. 
 
 The game was made as an assignment for the course ICS 3U (Grade 11 Computer Science).
 
