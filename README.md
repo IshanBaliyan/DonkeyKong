@@ -15,6 +15,8 @@ In the program, barrels are constantly moving back and forth on each level, and 
 
 The player is prompted with a win or loss message based on their performance.
 
+![donkey_kong_endgame_demo_](https://user-images.githubusercontent.com/43831507/119871263-468ce780-bef0-11eb-9d07-adf1ec844d3d.gif)
+
 ![Screenshot (9)](https://user-images.githubusercontent.com/43831507/95703893-774c3500-0c1d-11eb-9e68-c99023f57c34.png)
 
 
