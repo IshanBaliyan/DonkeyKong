@@ -6,6 +6,9 @@ The game was made as an assignment for the course ICS 3U (Grade 11 Computer Scie
 
 The goal of the game is to take Jumpman (Mario) to the top of the tower to save the damsel in distress, Pauline, from the titular giant ape, Donkey Kong.
 In the program, barrels are constantly moving back and forth on each level, and Jumpman must climb the ladders without getting hit by the barrels to reach to the top of the tower.
+
+![donkey_kong_demo](https://user-images.githubusercontent.com/43831507/119869901-c6b24d80-beee-11eb-9ce8-780c33df7216.gif)
+
 ![Screenshot (7)](https://user-images.githubusercontent.com/43831507/95703871-73b8ae00-0c1d-11eb-8c3d-4df40c990554.png)
 ![Screenshot (16)](https://user-images.githubusercontent.com/43831507/95705901-69011780-0c23-11eb-8c4b-23caf5679c8e.png)
 
