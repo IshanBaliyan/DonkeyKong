@@ -2,8 +2,6 @@
 
 ## This is a classic retro version of the game Donkey Kong. 
 
-The game was made as an assignment for the course ICS 3U (Grade 11 Computer Science).
-
 The goal of the game is to take Jumpman (Mario) to the top of the tower to save the damsel in distress, Pauline, from the titular giant ape, Donkey Kong.
 
 **In the program, barrels are constantly moving back and forth on each level, and Jumpman must climb the ladders without getting hit by the barrels to reach to the top of the tower.**
